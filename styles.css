@@ -1,11 +1,20 @@
 /* styles.css */
 
-div {
-    color: white;
-    background-color: black;
-  }
+.neon_text {
+  font-size: 36px; /* Rozmiar tekstu */
+    font-family: 'Times New Roman', Times, serif; /* Wybrana czcionka */
+    color: #fff; /* Kolor tekstu (biały) */
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00, 0 0 150px #00ff00; /* Efekt cienia tekstu */
+    background-color: #000; /* Kolor tła (czarne) */
+    padding: 20px; /* Wielkość wewnętrznego marginesu */
+}
   
-  li {
-    color: red;
-  }
-  
+.neon_title {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  color: pink;
+  text-shadow: 0 0 10px papayawhip, 0 0 20px papayawhip, 0 0 30px peachpuff, 0 0 80px palevioletred, 0 0 100px palevioletred, 0 0 200px palevioletred, 0 0 300px palevioletred;
+  background-color: #000;
+  padding: 30px;
+
+}
